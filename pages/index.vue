@@ -5,8 +5,8 @@
         <HomeIntro />
         <HomeProjects />
         <HomeClients />
-        <!-- <HomeSectionFour />
-        <HomeSectionFive /> -->
+        <HomeReviews />
+        <!-- <HomeSectionFive /> -->
       </div>
       <!-- <HomeFooter /> -->
     </main>
