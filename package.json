@@ -1,11 +1,18 @@
 {
   "private": true,
+  "author": {
+    "name": "Camillus Bloodfallen",
+    "url": "https://www.linkedin.com/in/ricardo-camilo-492b95b3/"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^2.1.0"
   },
   "devDependencies": {
     "nuxt": "^3.3.1"
