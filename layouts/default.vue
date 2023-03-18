@@ -2,8 +2,12 @@
 </script>
 
 <template>
-  <main class="container mx-auto px-4 pt-4 lg:px-8">
-    <div class="flex flex-wrap relative">
+  <main
+    class="mx-auto w-full grid overflow-x-hidden overflow-y-auto"
+  >
+    <div
+      class="flex flex-wrap relative"
+    >
       <slot />
     </div>
   </main>
