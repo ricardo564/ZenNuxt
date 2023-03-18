@@ -4,8 +4,8 @@
       <div class="grid relative">
         <HomeIntro />
         <HomeProjects />
-        <!-- <HomeSectionThree />
-        <HomeSectionFour />
+        <HomeClients />
+        <!-- <HomeSectionFour />
         <HomeSectionFive /> -->
       </div>
       <!-- <HomeFooter /> -->
