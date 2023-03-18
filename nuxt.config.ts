@@ -6,7 +6,11 @@ export default defineNuxtConfig({
   ],
   modules: [
     'nuxt-windicss',
+    '@vite-pwa/nuxt',
   ],
+  pwa: {
+    /* PWA options */
+  },
   typescript: {
     strict: true
   }
