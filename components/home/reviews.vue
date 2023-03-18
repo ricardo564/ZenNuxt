@@ -70,7 +70,7 @@ const reviews = [
 <section class="bg-white">
   <div class="mx-auto max-w-screen-xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
     <h2 class="font-bold text-center tracking-tight text-4xl sm:text-5xl">
-      Read trusted reviews from our customers
+      Reviews
     </h2>
 
     <div class="mt-12 grid gap-4 grid-cols-1 md:gap-8 md:grid-cols-3">
