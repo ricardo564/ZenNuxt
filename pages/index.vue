@@ -3,8 +3,8 @@
     <main class="h-auto mx-auto w-full grid px-4 pt-4 lg:px-8">
       <div class="grid relative">
         <HomeIntro />
-        <!-- <HomeSectionTwo />
-        <HomeSectionThree />
+        <HomeProjects />
+        <!-- <HomeSectionThree />
         <HomeSectionFour />
         <HomeSectionFive /> -->
       </div>
