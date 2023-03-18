@@ -6,7 +6,7 @@
         <HomeProjects />
         <HomeClients />
         <HomeReviews />
-        <!-- <HomeSectionFive /> -->
+        <HomeContact />
       </div>
       <!-- <HomeFooter /> -->
     </main>
