@@ -8,7 +8,7 @@
         <HomeReviews />
         <HomeContact />
       </div>
-      <!-- <HomeFooter /> -->
+      <HomeFooter />
     </main>
   </NuxtLayout>
 </template>
