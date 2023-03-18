@@ -1,9 +1,14 @@
 <template>
   <NuxtLayout name="default">
-    <main class="container mx-auto px-4 pt-4 lg:px-8">
-      <div class="flex flex-wrap relative">
-        <p>Home</p>
+    <main class="h-auto mx-auto w-full grid px-4 pt-4 lg:px-8">
+      <div class="grid relative">
+        <HomeIntro />
+        <!-- <HomeSectionTwo />
+        <HomeSectionThree />
+        <HomeSectionFour />
+        <HomeSectionFive /> -->
       </div>
+      <!-- <HomeFooter /> -->
     </main>
   </NuxtLayout>
 </template>
