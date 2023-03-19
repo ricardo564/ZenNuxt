@@ -20,6 +20,5 @@ const { src, alt } = props;
     loading="lazy"
     :src="src"
     :alt="alt"
-    :class="class"
   />
 </template>
