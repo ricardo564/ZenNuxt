@@ -12,7 +12,8 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/typescript-runtime": "^2.1.0"
+    "@nuxt/typescript-runtime": "^2.1.0",
+    "@types/node": "^18.15.3"
   },
   "devDependencies": {
     "@netlify/plugin-lighthouse": "^4.0.7",

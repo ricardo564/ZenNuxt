@@ -4,6 +4,7 @@ specifiers:
   '@netlify/plugin-lighthouse': ^4.0.7
   '@nuxt/image-edge': 1.0.0-27968280.9739e4d
   '@nuxt/typescript-runtime': ^2.1.0
+  '@types/node': ^18.15.3
   '@vite-pwa/nuxt': ^0.0.7
   netlify-cli: ^13.1.6
   nuxt: ^3.3.1
@@ -11,13 +12,14 @@ specifiers:
 
 dependencies:
   '@nuxt/typescript-runtime': 2.1.0
+  '@types/node': 18.15.3
 
 devDependencies:
   '@netlify/plugin-lighthouse': 4.0.7
   '@nuxt/image-edge': 1.0.0-27968280.9739e4d
   '@vite-pwa/nuxt': 0.0.7
-  netlify-cli: 13.1.6
-  nuxt: 3.3.1
+  netlify-cli: 13.1.6_@types+node@18.15.3
+  nuxt: 3.3.1_@types+node@18.15.3
   nuxt-windicss: 2.6.0
 
 packages:
@@ -1890,7 +1892,7 @@ packages:
     resolution: {integrity: sha512-4wMPu9iN3/HL97QblBsBay3E1etIciR84izI3U+4iALY+JHCrI+a2jO0qbAZ/nxKoegypYEaiiqWXylm+/zfrw==}
     dev: true
 
-  /@netlify/build/29.7.0:
+  /@netlify/build/29.7.0_@types+node@18.15.3:
     resolution: {integrity: sha512-N3lPfpib0g1GnF+w5INswTpT1LHP1x/+1utGGNdCgpBhOstYbLRG72OPt2Iwi1MKroG7X1S7Q3jRRykFbuSXGQ==}
     engines: {node: ^14.16.0 || >=16.0.0}
     hasBin: true
@@ -1944,7 +1946,7 @@ packages:
       supports-color: 9.3.1
       terminal-link: 3.0.0
       tmp-promise: 3.0.3
-      ts-node: 10.9.1_typescript@4.9.5
+      ts-node: 10.9.1_cbfmry4sbbh4vatmdrsmatfg5a
       typescript: 4.9.5
       uuid: 8.3.2
       yargs: 17.7.1
@@ -2766,7 +2768,7 @@ packages:
     resolution: {integrity: sha512-PjVETP7+iZXAs5Q8O4ivl4t6qjWZMZqwiTVogUXHoHGZZcw7GZW3u3tzfYfE1HbzyYJfr236IXqQ02MeR8Fz2w==}
     dev: true
 
-  /@nuxt/vite-builder/3.3.1_vue@3.2.47:
+  /@nuxt/vite-builder/3.3.1_6ouw4oa3zqqnrlfutxzevj4qhe:
     resolution: {integrity: sha512-YDPDqMWRcZfI6ou2nfxj+IEaxfZXRoyoeMV917h7LbhmnqMBn1prJzFF+Li8br97emL958XANZ7GVZ9OVXgayA==}
     engines: {node: ^14.18.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     peerDependencies:
@@ -2804,8 +2806,8 @@ packages:
       strip-literal: 1.0.1
       ufo: 1.1.1
       unplugin: 1.3.1
-      vite: 4.1.4
-      vite-node: 0.29.3
+      vite: 4.1.4_@types+node@18.15.3
+      vite-node: 0.29.3_@types+node@18.15.3
       vite-plugin-checker: 0.5.6_vite@4.1.4
       vue: 3.2.47
       vue-bundle-renderer: 1.0.2
@@ -3418,7 +3420,6 @@ packages:
 
   /@types/node/18.15.3:
     resolution: {integrity: sha512-p6ua9zBxz5otCmbpb5D3U4B5Nanw6Pk3PPyX05xnxbB/fRv71N7CPmORg7uAD5P70T0xmx1pzAx/FUfa5X+3cw==}
-    dev: true
 
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -3636,7 +3637,7 @@ packages:
       '@babel/core': 7.21.3
       '@babel/plugin-transform-typescript': 7.21.3_@babel+core@7.21.3
       '@vue/babel-plugin-jsx': 1.1.1_@babel+core@7.21.3
-      vite: 4.1.4
+      vite: 4.1.4_@types+node@18.15.3
       vue: 3.2.47
     transitivePeerDependencies:
       - supports-color
@@ -3649,7 +3650,7 @@ packages:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.1.4
+      vite: 4.1.4_@types+node@18.15.3
       vue: 3.2.47
     dev: true
 
@@ -9458,14 +9459,14 @@ packages:
     resolution: {integrity: sha512-9iN1ka/9zmX1ZvLV9ewJYEk9h7RyRRtqdK0woXcqohu8EWIerfPUjYJPg0ULy0UqP7cslmdGc8xKDJcojlKiaw==}
     dev: true
 
-  /netlify-cli/13.1.6:
+  /netlify-cli/13.1.6_@types+node@18.15.3:
     resolution: {integrity: sha512-dn9NYfLLzBi/Bph9wccpbR/90Yh6xutHzdl9J06XfcYsgpQOhEE9qAHUppzzJnHXUJEi7PAMo0lkXExvVO4zhA==}
     engines: {node: ^14.16.0 || >=16.0.0}
     hasBin: true
     requiresBuild: true
     dependencies:
       '@fastify/static': 6.9.0
-      '@netlify/build': 29.7.0
+      '@netlify/build': 29.7.0_@types+node@18.15.3
       '@netlify/config': 20.3.6
       '@netlify/edge-bundler': 8.12.2
       '@netlify/framework-info': 9.8.5
@@ -9950,7 +9951,7 @@ packages:
       - vite
     dev: true
 
-  /nuxt/3.3.1:
+  /nuxt/3.3.1_@types+node@18.15.3:
     resolution: {integrity: sha512-1DTFXEr+FlZO/hyw765cb9a/AiGysHIGLNl8NGJtURwUWC4gd+Z3y5DnL04PE5fVJ08yB/KJwc0t6StijbL8wQ==}
     engines: {node: ^14.18.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     hasBin: true
@@ -9960,7 +9961,7 @@ packages:
       '@nuxt/schema': 3.3.1
       '@nuxt/telemetry': 2.1.10
       '@nuxt/ui-templates': 1.1.1
-      '@nuxt/vite-builder': 3.3.1_vue@3.2.47
+      '@nuxt/vite-builder': 3.3.1_6ouw4oa3zqqnrlfutxzevj4qhe
       '@unhead/ssr': 1.1.23
       '@unhead/vue': 1.1.23_vue@3.2.47
       '@vue/reactivity': 3.2.47
@@ -12759,7 +12760,7 @@ packages:
     resolution: {integrity: sha512-XrHUvV5HpdLmIj4uVMxHggLbFSZYIn7HEWsqePZcI50pco+MPqJ50wMGY794X7AOOhxOBAjbkqfAbEe/QMp2Lw==}
     dev: true
 
-  /ts-node/10.9.1_typescript@4.9.5:
+  /ts-node/10.9.1_cbfmry4sbbh4vatmdrsmatfg5a:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -12778,6 +12779,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.3
+      '@types/node': 18.15.3
       acorn: 8.8.2
       acorn-walk: 8.2.0
       arg: 4.1.3
@@ -13298,7 +13300,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vite-node/0.29.3:
+  /vite-node/0.29.3_@types+node@18.15.3:
     resolution: {integrity: sha512-QYzYSA4Yt2IiduEjYbccfZQfxKp+T1Do8/HEpSX/G5WIECTFKJADwLs9c94aQH4o0A+UtCKU61lj1m5KvbxxQA==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -13308,7 +13310,7 @@ packages:
       mlly: 1.2.0
       pathe: 1.1.0
       picocolors: 1.0.0
-      vite: 4.1.4
+      vite: 4.1.4_@types+node@18.15.3
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -13362,7 +13364,7 @@ packages:
       npm-run-path: 4.0.1
       strip-ansi: 6.0.1
       tiny-invariant: 1.3.1
-      vite: 4.1.4
+      vite: 4.1.4_@types+node@18.15.3
       vscode-languageclient: 7.0.0
       vscode-languageserver: 7.0.0
       vscode-languageserver-textdocument: 1.0.8
@@ -13399,7 +13401,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite/4.1.4:
+  /vite/4.1.4_@types+node@18.15.3:
     resolution: {integrity: sha512-3knk/HsbSTKEin43zHu7jTwYWv81f8kgAL99G5NWBcA1LKvtvcVAC4JjBH1arBunO9kQka+1oGbrMKOjk4ZrBg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -13424,6 +13426,7 @@ packages:
       terser:
         optional: true
     dependencies:
+      '@types/node': 18.15.3
       esbuild: 0.16.17
       postcss: 8.4.21
       resolve: 1.22.1

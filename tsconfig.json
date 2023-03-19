@@ -21,7 +21,8 @@
     "types": [
       "nuxt-windicss",
       "@nuxt/types",
-      "@nuxt/image"
+      "@nuxt/image",
+      "@types/node",
     ]
   }
 }
