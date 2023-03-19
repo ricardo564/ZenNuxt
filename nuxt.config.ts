@@ -4,9 +4,15 @@ export default defineNuxtConfig({
     'virtual:windi.css',
     'virtual:windi-devtools',
   ],
+  buildModules: [
+    'nuxt-windicss',
+    '@vite-pwa/nuxt',
+    '@nuxt/image-edge',
+  ],
   modules: [
     'nuxt-windicss',
     '@vite-pwa/nuxt',
+    '@nuxt/image-edge',
   ],
   pwa: {
     /* PWA options */

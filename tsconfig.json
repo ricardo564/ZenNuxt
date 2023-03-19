@@ -19,7 +19,9 @@
       ]
     },
     "types": [
-      "nuxt-windicss"
+      "nuxt-windicss",
+      "@nuxt/types",
+      "@nuxt/image"
     ]
   }
 }
