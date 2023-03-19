@@ -1,28 +1,28 @@
 <script setup lang="ts">
 const projects = [
   {
-    name: "Nome do projeto",
-    image: "https://storage.googleapis.com/pai-images/42d74e94b325455993cd4faad245b220.jpeg",
+    name: "Project coming soon",
+    image: "https://storage.googleapis.com/pai-images/9c020e30be9040138e7dca4903989e5f.jpeg",
     alt: "Portfolio Mockup",
   },
   {
-    name: "Nome do projeto 2",
-    image: "https://storage.googleapis.com/pai-images/42d74e94b325455993cd4faad245b220.jpeg",
+    name: "Project coming soon",
+    image: "https://storage.googleapis.com/pai-images/9c020e30be9040138e7dca4903989e5f.jpeg",
     alt: "Portfolio Mockup",
   },
   {
-    name: "Nome do projeto 3",
-    image: "https://storage.googleapis.com/pai-images/42d74e94b325455993cd4faad245b220.jpeg",
+    name: "Project coming soon",
+    image: "https://storage.googleapis.com/pai-images/9c020e30be9040138e7dca4903989e5f.jpeg",
     alt: "Portfolio Mockup",
   },
   {
-    name: "Nome do projeto 4",
-    image: "https://storage.googleapis.com/pai-images/42d74e94b325455993cd4faad245b220.jpeg",
+    name: "Project coming soon",
+    image: "https://storage.googleapis.com/pai-images/9c020e30be9040138e7dca4903989e5f.jpeg",
     alt: "Portfolio Mockup",
   },
   {
-    name: "Nome do projeto 5",
-    image: "https://storage.googleapis.com/pai-images/42d74e94b325455993cd4faad245b220.jpeg",
+    name: "Project coming soon",
+    image: "https://storage.googleapis.com/pai-images/9c020e30be9040138e7dca4903989e5f.jpeg",
     alt: "Portfolio Mockup",
   },
 ]
@@ -43,7 +43,7 @@ const projects = [
           class="text-center"
         >
           <div
-            class="rounded-xl grid overflow-hidden"
+            class="rounded-xl grid px-1 overflow-hidden"
           >
             <Image
               :src="project.image"
