@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "author": {
+    "name": "Camillus Bloodfallen",
+    "url": "https://www.linkedin.com/in/ricardo-camilo-492b95b3/"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^2.1.0",
+    "@types/node": "^18.15.3"
+  },
+  "devDependencies": {
+    "@netlify/plugin-lighthouse": "^4.0.7",
+    "@nuxt/image-edge": "1.0.0-27968280.9739e4d",
+    "@vite-pwa/nuxt": "^0.0.7",
+    "netlify-cli": "^13.1.6",
+    "nuxt": "^3.3.1",
+    "nuxt-windicss": "^2.6.0"
+  }
+}
